@@ -106,7 +106,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v dart=0 debug=0x100 darkwake=3 keepsyms=1 slide=0 shikigva=1 shiki-id=Mac-7BA5B2D9E42DDD94</string>
+		<string>-v dart=0 debug=0x100 darkwake=3 keepsyms=1 slide=0 shikigva=1 shiki-id=Mac-7BA5B2D9E42DDD94 igfxframe=0x3E9B0007</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Timeout</key>
@@ -122,6 +122,16 @@
 			<integer>7</integer>
 			<key>ResetHDA</key>
 			<true/>
+		</dict>
+		<key>Properties</key>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>
+				BwCbPg==
+				</data>
+			</dict>
 		</dict>
 		<key>USB</key>
 		<dict>
