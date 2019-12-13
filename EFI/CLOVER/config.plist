@@ -107,8 +107,10 @@
 	<dict>
 		<key>Arguments</key>
 		<string>-v dart=0 debug=0x100 darkwake=3 keepsyms=1 slide=0 shikigva=4 shiki-id=Mac-7BA5B2D9E42DDD94 igfxframe=0x3E980003</string>
+		<key>DefaultLoader</key>
+		<string>boot.efi</string>
 		<key>DefaultVolume</key>
-		<string>LastBootedVolume</string>
+		<string>Macintosh</string>
 		<key>Timeout</key>
 		<integer>3</integer>
 		<key>XMPDetection</key>
@@ -133,11 +135,18 @@
 	</dict>
 	<key>GUI</key>
 	<dict>
+		<key>EmbeddedThemeType</key>
+		<string>Dark</string>
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
 			<string>Recovery</string>
+			<string>BOOTX64.EFI</string>
 		</array>
+		<key>Language</key>
+		<string>zh_CN:0</string>
+		<key>PlayAsync</key>
+		<false/>
 		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
@@ -145,6 +154,8 @@
 			<key>Tool</key>
 			<true/>
 		</dict>
+		<key>ScreenResolution</key>
+		<string>1920x1080</string>
 		<key>Theme</key>
 		<string>Catalina</string>
 	</dict>
